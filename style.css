@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main,
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-color: lavender;
+}
+
+section {
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: white;
+  width: 500px;
+  padding: 30px;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  width: 78%;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(117, 104, 202);
+  padding: 5px 10px;
+  color: white;
+  border: none;
+}
+
+ul {
+  width: 50%;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 10px 0;
+}
+
+li span {
+  width: 70%;
+  text-align: left;
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.edit-icon {
+  color: rgb(85, 85, 85);
+  cursor: pointer;
+}
+
+.delete-icon {
+  color: rgb(229, 107, 107);
+  cursor: pointer;
+}
